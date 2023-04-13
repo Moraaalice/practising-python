@@ -1,4 +1,4 @@
-names = ()
+names = () #This part majorly entails tuples and methods
 brothers = ("Brian","Jeff","Dante","Mark")
 sisters = ("Mary","Winnie","Joy")
 siblings = brothers + sisters
