@@ -50,3 +50,28 @@ companies.pop(-1)
 print(companies)
 companies.clear()
 print(companies)
+#Joining lists
+front_end = ["HTML","CSS","Js","React","Redux"]
+back_end = ["Node","Express","MongoDb"]
+full_stack = front_end+back_end
+print(full_stack)
+#
+full_stack.insert(5,"Python")
+full_stack.insert(6,"SQL")
+print(full_stack)
+#
+ages = [19,22,19,24,20,25,26,24,25,24]
+ages.pop()
+print(ages)
+ages.sort()
+print(ages)
+#finding min and max 
+ages2 = max(ages)
+print(ages2)
+ages3 = min(ages)
+print(ages3)
+#
+ages.extend([26,19])
+print(ages)
+#
+
