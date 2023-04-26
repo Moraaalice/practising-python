@@ -32,5 +32,12 @@ print(a)
 print(b) 
 #
 t = "I am a teacher and i love to inspire and teach people"
-v = set(t.split(" "))
+v = {x for x in t}
 print(v)
+#Convert the ages to a set and compare the length of the list and the set, which one is bigger?
+ages = [10,3,8,28,90,23,12,34,34,89,];
+ages2 = set(ages);
+print(ages2)
+print(type(ages2))
+print(len(ages2))
+print(len(ages))
