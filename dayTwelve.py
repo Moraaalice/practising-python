@@ -121,12 +121,11 @@ print(capitalize(["Kigali","Kampala","Dododma"]))
 
 #Write a function that takes a string as input and returns a new string with all uppercase 
 # letters replaced with lowercase letters and all lowercase letters replaced with uppercase letters.
-def swap_str(hotels):
-    for h in hotels:
-        return h.swapcase()
-print(swap_str(["SErena","SArova","MErica"]))               
-        
-     
+def swap_str(str):
+    swapping = str.swapcase()
+    return swapping
+print(swap_str("ALIcia"))                 
+
        
                           
             
