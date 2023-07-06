@@ -94,6 +94,7 @@ def merging_two_lists(num,nums):
         if num[a] <= nums[b]:
             merged.append(num[a])
         a += 1
+   
     else:
         merged.append(nums[b])
         b += 1

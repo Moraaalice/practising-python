@@ -117,7 +117,6 @@ class Book:
         print("Title:",self.title) 
         print("Author:",self.author) 
         print("Price:",self.price)
-        
 
 #QUESTION5
 #Create a Coputation class with a default constructor (without parameters) allowing to perform various calculations 
@@ -139,9 +138,31 @@ class Book:
 # Create another listDivPrim() method that gets all the prime divisors of a given integer.
 
 
-
-
-
+#Create a class called TK_extended which inherits from TK class and having the attributes:
+#Master: that represents the name of the main window
+#title: that represents the title of the main window
+#Create a method called create() that creates the window
+#Create a method called resize(width, height) that can resize the window.
+#Create a method called generate() to generate the window
+class TK:
+    def __init__(self):
+        pass
+    
+    def main_loop(self):
+        super.main_loop()
+    
+class TK_extended(TK):
+    def __init__(self,master,title):
+        super().__init__()
+        self.master = master
+        self.title = title
+    
+    def create(self): 
+        self.master = TK
+        self.master.title(self.title)  
+        
+    def resize(self,width,height):
+        self.master.geometry(f"{self.width} {self.height}")
 
 
         

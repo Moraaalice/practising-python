@@ -46,17 +46,7 @@ def remove_even_nums(nums):
         if n%2!=0:
             print(n)
 nums = [12,5,3,2,8,9,11]
-remove_even_nums(nums) 
-
-
-def find_letters(words):
-    count = 0
-    letter = "a"
-    for o in words:
-        for n in letters:
-            
-                    
-                           
+remove_even_nums(nums)                      
     
 
          
